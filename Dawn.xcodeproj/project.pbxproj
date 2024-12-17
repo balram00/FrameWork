@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B15BD192D118727006A28CB /* Dawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B15BD182D118727006A28CB /* Dawn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B15BD202D1187C5006A28CB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15BD1F2D1187C5006A28CB /* Main.swift */; };
-		8B15BD502D118E71006A28CB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15BD4F2D118E71006A28CB /* UIColor+Extensions.swift */; };
+		8B15BD802D11C783006A28CB /* Dawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15BD7F2D11C783006A28CB /* Dawn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,7 @@
 		8B15BD152D118727006A28CB /* Dawn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dawn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B15BD182D118727006A28CB /* Dawn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dawn.h; sourceTree = "<group>"; };
 		8B15BD1F2D1187C5006A28CB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		8B15BD4F2D118E71006A28CB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		8B15BD7F2D11C783006A28CB /* Dawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dawn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,19 +62,27 @@
 		8B15BD172D118727006A28CB /* Dawn */ = {
 			isa = PBXGroup;
 			children = (
-				8B15BD4E2D118E60006A28CB /* Extensions */,
+				8B15BD7E2D11C776006A28CB /* Sources */,
 				8B15BD182D118727006A28CB /* Dawn.h */,
 				8B15BD1F2D1187C5006A28CB /* Main.swift */,
 			);
 			path = Dawn;
 			sourceTree = "<group>";
 		};
-		8B15BD4E2D118E60006A28CB /* Extensions */ = {
+		8B15BD7E2D11C776006A28CB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8B15BD4F2D118E71006A28CB /* UIColor+Extensions.swift */,
+				8BB285F32D11CA50005A4C8B /* Dawn */,
 			);
-			path = Extensions;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8BB285F32D11CA50005A4C8B /* Dawn */ = {
+			isa = PBXGroup;
+			children = (
+				8B15BD7F2D11C783006A28CB /* Dawn.swift */,
+			);
+			path = Dawn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +142,8 @@
 				Base,
 			);
 			mainGroup = 8B15BD0B2D118727006A28CB;
+			packageReferences = (
+			);
 			productRefGroup = 8B15BD162D118727006A28CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B15BD202D1187C5006A28CB /* Main.swift in Sources */,
-				8B15BD502D118E71006A28CB /* UIColor+Extensions.swift in Sources */,
+				8B15BD802D11C783006A28CB /* Dawn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +321,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +364,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

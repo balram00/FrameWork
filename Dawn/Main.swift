@@ -7,11 +7,11 @@
 
 import Foundation
 
-public class Testing{
-    public init() {}
-    
-    public func printMessage(mesaage:String) {
-        print(mesaage)
-    }
-    
-}
+//public class Testing{
+//    public init() {}
+//    
+//    public func printMessage(mesaage:String) {
+//        print(mesaage)
+//    }
+//    
+//}
