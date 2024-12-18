@@ -1,5 +1,10 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+//
+//  Dawn.swift
+//  Dawn
+//
+//  Created by bitcot on 17/12/24.
+//
+
 import Foundation
 public class Testing{
     public init() {}
