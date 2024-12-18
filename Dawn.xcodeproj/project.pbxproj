@@ -10,7 +10,6 @@
 		8B15BD192D118727006A28CB /* Dawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B15BD182D118727006A28CB /* Dawn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B15BD202D1187C5006A28CB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15BD1F2D1187C5006A28CB /* Main.swift */; };
 		8B15BD802D11C783006A28CB /* Dawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B15BD7F2D11C783006A28CB /* Dawn.swift */; };
-		8B513C062D127500001D9C41 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B513C042D127490001D9C41 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +30,7 @@
 		8B15BD182D118727006A28CB /* Dawn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dawn.h; sourceTree = "<group>"; };
 		8B15BD1F2D1187C5006A28CB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		8B15BD7F2D11C783006A28CB /* Dawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dawn.swift; sourceTree = "<group>"; };
-		8B513C042D127490001D9C41 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Package.swift; sourceTree = "<group>"; };
+		8B513C252D12A693001D9C41 /* DawnLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DawnLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +63,7 @@
 		8B15BD172D118727006A28CB /* Dawn */ = {
 			isa = PBXGroup;
 			children = (
-				8B513C042D127490001D9C41 /* Package.swift */,
+				8B513C252D12A693001D9C41 /* DawnLibrary */,
 				8B15BD7E2D11C776006A28CB /* Sources */,
 				8B15BD182D118727006A28CB /* Dawn.h */,
 				8B15BD1F2D1187C5006A28CB /* Main.swift */,
@@ -171,7 +170,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B513C062D127500001D9C41 /* Package.swift in Sources */,
 				8B15BD202D1187C5006A28CB /* Main.swift in Sources */,
 				8B15BD802D11C783006A28CB /* Dawn.swift in Sources */,
 			);
@@ -326,7 +324,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +368,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

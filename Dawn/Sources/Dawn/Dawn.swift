@@ -9,16 +9,16 @@ import Foundation
 public class Testing{
     public init() {}
     
-    public func printMessage(mesaage:String) {
-        print(mesaage)
+    public func printMessage(message:String) {
+        print(message)
     }
     
     public func login(name:String) {
-        print(mesaage)
+        print(name)
     }
     
     public func logout(name:String) {
-        print(mesaage)
+        print(name)
     }
     
 }
