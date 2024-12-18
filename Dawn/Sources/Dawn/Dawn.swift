@@ -13,4 +13,12 @@ public class Testing{
         print(mesaage)
     }
     
+    public func login(name:String) {
+        print(mesaage)
+    }
+    
+    public func logout(name:String) {
+        print(mesaage)
+    }
+    
 }
